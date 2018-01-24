@@ -25,5 +25,5 @@
 			seconds = parseInt(seconds_left % 60);
 	
 			// format countdown string + set tag value
-			countdown.innerHTML = days + "<p> days</p> " + hours + "<p> hours</p> " + minutes + "<p> minutes</p> " + seconds + "<p> seconds</p>";  
+			countdown.innerHTML = days + " days " + hours + " hours " + minutes + " minutes " + seconds + " seconds";  
 		}, 0);
